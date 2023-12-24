@@ -1,0 +1,35 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/compiled.php
+/vendor
+/build/logs
+/build/coverage
+/app/tests/_log
+/app/config/packages
+/public/packages
+composer.phar
+.env
+.env.backup
+.phpunit.result.cache
+.DS_Store
+/.idea
+/_ide_helper.php
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+X
+
+#Adding for me
+# dependency related
+npm-debug.log
+
+# sensitive and auto generated files
+docker-compose.yml
+/.vagrant
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
