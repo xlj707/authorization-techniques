@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(); //incluye las rutas de : #1 inicio de sesion #2 recuperacion de contrasenia #3 de registro 
 
 Route::get('/home', 'HomeController@index')->name('home');
